@@ -2,7 +2,7 @@ package seccion1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
+import java.util
 
 public class RegistroTemperaturas {
     private ArrayList<Double> temperaturas;
