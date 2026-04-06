@@ -36,8 +36,8 @@ public class RegistroTemperaturas {
         ArrayList<Double> temps = new ArrayList<>(Arrays.asList(28.5, 31.2, 29.8, 33.1, 30.5, 27.9, 35.0));
         RegistroTemperaturas registro = new RegistroTemperaturas(temps);
 
-        System.out.println("=== Registro de Temperaturas Semanales ===");
-        System.out.println("Temperaturas: " + temps);
+        System.out.println("Registro de temperaturas semanales");
+        System.out.println("Temperaturas : " + temps);
         System.out.println("Promedio: " + registro.promedio());
         System.out.println("Máximo: " + registro.maximo());
         System.out.println("Mínimo: " + registro.minimo());
